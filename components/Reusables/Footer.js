@@ -5,7 +5,7 @@ import logo from '../../public/logos/2.png';
 
 export default function Footer() {
   return (
-    <footer className="footer items-center p-4 bg-black px-20 py-10 text-zinc-50 ">
+    <footer className="footer items-center p-4 bg-transparent px-20 py-10 text-zinc-50 ">
       <div className="items-center grid-flow-col">
         <Image src={logo} alt="ss lgogo" className="w-8 h-8" />
         <p>sparkle squad - demo project</p>
