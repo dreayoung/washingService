@@ -16,7 +16,7 @@ export default function ServiceSelected() {
             <div className="font-mono">
               <li>
                 Hand wash: high-quality car shampoo and a mitt to hand wash the
-                car's exterior, including the body, wheels, and tires
+                car&apos;s exterior, including the body, wheels, and tires
               </li>
               <li>
                 Rim cleaning: The rims will be scrubbed with a specialized
@@ -31,8 +31,8 @@ export default function ServiceSelected() {
                 specialized glass cleaner to remove any streaks or smudges.
               </li>
               <li>
-                Waxing: A layer of wax may be applied to the car's exterior to
-                protect the paint and give it a shiny finish.
+                Waxing: A layer of wax may be applied to the car&apos;s exterior
+                to protect the paint and give it a shiny finish.
               </li>
             </div>
           </div>
