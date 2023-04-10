@@ -7,8 +7,8 @@ export default function ServiceSelected() {
   const [vehicleT, setVehicle] = useState(false);
 
   return (
-    <main className="flex items-start">
-      <Image src={book1} alt="" className="w-1/2 object-cover" />
+    <main className="flex lg:flex-row flex-col items-start">
+      <Image src={book1} alt="" className="lg:w-1/2 object-cover" />
       <section className="flex flex-col justify-center pt-10 text-zinc-50">
         <div className="px-20 space-y-8">
           <div className="flex justify-center items-center space-x-6 font-mono text-[0.75rem] text-center">
@@ -19,16 +19,13 @@ export default function ServiceSelected() {
                 car&apos;s exterior, including the body, wheels, and tires
               </li>
               <li>
-                Rim cleaning: The rims will be scrubbed with a specialized
-                cleaner to remove brake dust and grime.
+                Rim cleaning: The rims will be scrubbed with a specialized cleaner to remove brake dust and grime.
               </li>
               <li>
-                Tire shine: A tire shine product will be applied to give the
-                tires a glossy finish.
+                Tire shine: A tire shine product will be applied to give the tires a glossy finish.
               </li>
               <li>
-                Window cleaning: The exterior windows will be cleaned with a
-                specialized glass cleaner to remove any streaks or smudges.
+                Window cleaning: The exterior windows will be cleaned with a specialized glass cleaner to remove any streaks or smudges.
               </li>
               <li>
                 Waxing: A layer of wax may be applied to the car&apos;s exterior
